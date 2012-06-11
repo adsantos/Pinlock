@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D06BFAE156A90E400CCDB50 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D06BFAD156A90E400CCDB50 /* NSDate+Helper.m */; };
+		6D7C180C155AC7B800410B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7C180B155AC7B800410B91 /* UIKit.framework */; };
+		6D7C180E155AC7B800410B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7C180D155AC7B800410B91 /* Foundation.framework */; };
+		6D7C1810155AC7B800410B91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7C180F155AC7B800410B91 /* CoreGraphics.framework */; };
+		6D7C1816155AC7B800410B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C1814155AC7B800410B91 /* InfoPlist.strings */; };
+		6D7C1818155AC7B800410B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7C1817155AC7B800410B91 /* main.m */; };
+		6D7C181C155AC7B800410B91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7C181B155AC7B800410B91 /* AppDelegate.m */; };
+		6D7C181F155AC7B800410B91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7C181E155AC7B800410B91 /* ViewController.m */; };
+		6D7C1822155AC7B800410B91 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C1820155AC7B800410B91 /* ViewController_iPhone.xib */; };
+		6D7C1825155AC7B800410B91 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C1823155AC7B800410B91 /* ViewController_iPad.xib */; };
+		6D7C1833155AC84B00410B91 /* PinlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7C1831155AC84B00410B91 /* PinlockViewController.m */; };
+		6D7C1838155ACA7F00410B91 /* highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C1836155ACA7F00410B91 /* highlight.png */; };
+		6D7C1839155ACA7F00410B91 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D7C1837155ACA7F00410B91 /* normal.png */; };
+		6D7C1842155BBD2900410B91 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7C1841155BBD2900410B91 /* QuartzCore.framework */; };
+		6DCC48A6155BD03B000B0D8D /* ColouredButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC48A5155BD03B000B0D8D /* ColouredButton.m */; };
+		6DCC48C1155BF2AC000B0D8D /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC48C0155BF2AC000B0D8D /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DCC48C3155BF3C9000B0D8D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCC48C2155BF3C9000B0D8D /* Security.framework */; };
+		6DCC48CD155C0A03000B0D8D /* CreatePinlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC48CC155C0A03000B0D8D /* CreatePinlockViewController.m */; };
+		6DCC48CF155D077F000B0D8D /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC48CE155D077F000B0D8D /* backspace.png */; };
+		6DCC48D5155D26E4000B0D8D /* ConstantsPinlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCC48D4155D26E3000B0D8D /* ConstantsPinlock.m */; };
+		6DCC48E51561006D000B0D8D /* PinlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC48E31561006D000B0D8D /* PinlockViewController.xib */; };
+		6DCC48E715610858000B0D8D /* backgroundWrongPin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC48E615610858000B0D8D /* backgroundWrongPin.png */; };
+		6DCC495F15629223000B0D8D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC496115629223000B0D8D /* Localizable.strings */; };
+		6DCC4964156298F7000B0D8D /* backgroundButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC4963156298F7000B0D8D /* backgroundButton.png */; };
+		6DCC4966156299B2000B0D8D /* greyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC4965156299B2000B0D8D /* greyBackground.png */; };
+		6DCC496815629D86000B0D8D /* textFieldBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DCC496715629D86000B0D8D /* textFieldBackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D06BFAC156A90E400CCDB50 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		6D06BFAD156A90E400CCDB50 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		6D7C1807155AC7B800410B91 /* Pinlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7C180B155AC7B800410B91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D7C180D155AC7B800410B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D7C180F155AC7B800410B91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6D7C1813155AC7B800410B91 /* Pinlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pinlock-Info.plist"; sourceTree = "<group>"; };
+		6D7C1815155AC7B800410B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D7C1817155AC7B800410B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D7C1819155AC7B800410B91 /* Pinlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pinlock-Prefix.pch"; sourceTree = "<group>"; };
+		6D7C181A155AC7B800410B91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D7C181B155AC7B800410B91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D7C181D155AC7B800410B91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D7C181E155AC7B800410B91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D7C1821155AC7B800410B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		6D7C1824155AC7B800410B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		6D7C1830155AC84B00410B91 /* PinlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinlockViewController.h; sourceTree = "<group>"; };
+		6D7C1831155AC84B00410B91 /* PinlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinlockViewController.m; sourceTree = "<group>"; };
+		6D7C1836155ACA7F00410B91 /* highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlight.png; sourceTree = "<group>"; };
+		6D7C1837155ACA7F00410B91 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		6D7C1841155BBD2900410B91 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6DCC48A4155BD03B000B0D8D /* ColouredButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColouredButton.h; sourceTree = "<group>"; };
+		6DCC48A5155BD03B000B0D8D /* ColouredButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColouredButton.m; sourceTree = "<group>"; };
+		6DCC48BF155BF2AC000B0D8D /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		6DCC48C0155BF2AC000B0D8D /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		6DCC48C2155BF3C9000B0D8D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6DCC48CB155C0A03000B0D8D /* CreatePinlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatePinlockViewController.h; sourceTree = "<group>"; };
+		6DCC48CC155C0A03000B0D8D /* CreatePinlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatePinlockViewController.m; sourceTree = "<group>"; };
+		6DCC48CE155D077F000B0D8D /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
+		6DCC48D3155D26E3000B0D8D /* ConstantsPinlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsPinlock.h; sourceTree = "<group>"; };
+		6DCC48D4155D26E3000B0D8D /* ConstantsPinlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantsPinlock.m; sourceTree = "<group>"; };
+		6DCC48E31561006D000B0D8D /* PinlockViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinlockViewController.xib; sourceTree = "<group>"; };
+		6DCC48E615610858000B0D8D /* backgroundWrongPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundWrongPin.png; sourceTree = "<group>"; };
+		6DCC496015629223000B0D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6DCC49621562922C000B0D8D /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6DCC4963156298F7000B0D8D /* backgroundButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundButton.png; sourceTree = "<group>"; };
+		6DCC4965156299B2000B0D8D /* greyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyBackground.png; sourceTree = "<group>"; };
+		6DCC496715629D86000B0D8D /* textFieldBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textFieldBackground.png; sourceTree = "<group>"; };
+		6DCC49691562A3A5000B0D8D /* PinlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinlockDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D7C1804155AC7B800410B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCC48C3155BF3C9000B0D8D /* Security.framework in Frameworks */,
+				6D7C1842155BBD2900410B91 /* QuartzCore.framework in Frameworks */,
+				6D7C180C155AC7B800410B91 /* UIKit.framework in Frameworks */,
+				6D7C180E155AC7B800410B91 /* Foundation.framework in Frameworks */,
+				6D7C1810155AC7B800410B91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D7C17FC155AC7B800410B91 = {
+			isa = PBXGroup;
+			children = (
+				6D7C1811155AC7B800410B91 /* Pinlock */,
+				6D7C180A155AC7B800410B91 /* Frameworks */,
+				6D7C1808155AC7B800410B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D7C1808155AC7B800410B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D7C1807155AC7B800410B91 /* Pinlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D7C180A155AC7B800410B91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DCC48C2155BF3C9000B0D8D /* Security.framework */,
+				6D7C1841155BBD2900410B91 /* QuartzCore.framework */,
+				6D7C180B155AC7B800410B91 /* UIKit.framework */,
+				6D7C180D155AC7B800410B91 /* Foundation.framework */,
+				6D7C180F155AC7B800410B91 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D7C1811155AC7B800410B91 /* Pinlock */ = {
+			isa = PBXGroup;
+			children = (
+				6DCC48BE155BF280000B0D8D /* Utils */,
+				6D7C1835155ACA7500410B91 /* Images */,
+				6D7C181A155AC7B800410B91 /* AppDelegate.h */,
+				6D7C181B155AC7B800410B91 /* AppDelegate.m */,
+				6D7C181D155AC7B800410B91 /* ViewController.h */,
+				6D7C181E155AC7B800410B91 /* ViewController.m */,
+				6D7C1820155AC7B800410B91 /* ViewController_iPhone.xib */,
+				6D7C1823155AC7B800410B91 /* ViewController_iPad.xib */,
+				6D7C1812155AC7B800410B91 /* Supporting Files */,
+				6DCC49691562A3A5000B0D8D /* PinlockDelegate.h */,
+				6DCC48CB155C0A03000B0D8D /* CreatePinlockViewController.h */,
+				6DCC48CC155C0A03000B0D8D /* CreatePinlockViewController.m */,
+				6D7C1830155AC84B00410B91 /* PinlockViewController.h */,
+				6D7C1831155AC84B00410B91 /* PinlockViewController.m */,
+				6DCC48E31561006D000B0D8D /* PinlockViewController.xib */,
+				6DCC48A4155BD03B000B0D8D /* ColouredButton.h */,
+				6DCC48A5155BD03B000B0D8D /* ColouredButton.m */,
+				6DCC48D3155D26E3000B0D8D /* ConstantsPinlock.h */,
+				6DCC48D4155D26E3000B0D8D /* ConstantsPinlock.m */,
+				6DCC496115629223000B0D8D /* Localizable.strings */,
+			);
+			path = Pinlock;
+			sourceTree = "<group>";
+		};
+		6D7C1812155AC7B800410B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D7C1813155AC7B800410B91 /* Pinlock-Info.plist */,
+				6D7C1814155AC7B800410B91 /* InfoPlist.strings */,
+				6D7C1817155AC7B800410B91 /* main.m */,
+				6D7C1819155AC7B800410B91 /* Pinlock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D7C1835155ACA7500410B91 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6DCC496715629D86000B0D8D /* textFieldBackground.png */,
+				6DCC4965156299B2000B0D8D /* greyBackground.png */,
+				6DCC4963156298F7000B0D8D /* backgroundButton.png */,
+				6DCC48E615610858000B0D8D /* backgroundWrongPin.png */,
+				6DCC48CE155D077F000B0D8D /* backspace.png */,
+				6D7C1836155ACA7F00410B91 /* highlight.png */,
+				6D7C1837155ACA7F00410B91 /* normal.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6DCC48BE155BF280000B0D8D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6D06BFAC156A90E400CCDB50 /* NSDate+Helper.h */,
+				6D06BFAD156A90E400CCDB50 /* NSDate+Helper.m */,
+				6DCC48BF155BF2AC000B0D8D /* SFHFKeychainUtils.h */,
+				6DCC48C0155BF2AC000B0D8D /* SFHFKeychainUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D7C1806155AC7B800410B91 /* Pinlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D7C1828155AC7B800410B91 /* Build configuration list for PBXNativeTarget "Pinlock" */;
+			buildPhases = (
+				6D7C1803155AC7B800410B91 /* Sources */,
+				6D7C1804155AC7B800410B91 /* Frameworks */,
+				6D7C1805155AC7B800410B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinlock;
+			productName = Pinlock;
+			productReference = 6D7C1807155AC7B800410B91 /* Pinlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D7C17FE155AC7B800410B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6D7C1801155AC7B800410B91 /* Build configuration list for PBXProject "Pinlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"pt-PT",
+			);
+			mainGroup = 6D7C17FC155AC7B800410B91;
+			productRefGroup = 6D7C1808155AC7B800410B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D7C1806155AC7B800410B91 /* Pinlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D7C1805155AC7B800410B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7C1816155AC7B800410B91 /* InfoPlist.strings in Resources */,
+				6D7C1822155AC7B800410B91 /* ViewController_iPhone.xib in Resources */,
+				6D7C1825155AC7B800410B91 /* ViewController_iPad.xib in Resources */,
+				6D7C1838155ACA7F00410B91 /* highlight.png in Resources */,
+				6D7C1839155ACA7F00410B91 /* normal.png in Resources */,
+				6DCC48CF155D077F000B0D8D /* backspace.png in Resources */,
+				6DCC48E51561006D000B0D8D /* PinlockViewController.xib in Resources */,
+				6DCC48E715610858000B0D8D /* backgroundWrongPin.png in Resources */,
+				6DCC495F15629223000B0D8D /* Localizable.strings in Resources */,
+				6DCC4964156298F7000B0D8D /* backgroundButton.png in Resources */,
+				6DCC4966156299B2000B0D8D /* greyBackground.png in Resources */,
+				6DCC496815629D86000B0D8D /* textFieldBackground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D7C1803155AC7B800410B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7C1818155AC7B800410B91 /* main.m in Sources */,
+				6D7C181C155AC7B800410B91 /* AppDelegate.m in Sources */,
+				6D7C181F155AC7B800410B91 /* ViewController.m in Sources */,
+				6D7C1833155AC84B00410B91 /* PinlockViewController.m in Sources */,
+				6DCC48A6155BD03B000B0D8D /* ColouredButton.m in Sources */,
+				6DCC48C1155BF2AC000B0D8D /* SFHFKeychainUtils.m in Sources */,
+				6DCC48CD155C0A03000B0D8D /* CreatePinlockViewController.m in Sources */,
+				6DCC48D5155D26E4000B0D8D /* ConstantsPinlock.m in Sources */,
+				6D06BFAE156A90E400CCDB50 /* NSDate+Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D7C1814155AC7B800410B91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7C1815155AC7B800410B91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6D7C1820155AC7B800410B91 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7C1821155AC7B800410B91 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		6D7C1823155AC7B800410B91 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D7C1824155AC7B800410B91 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		6DCC496115629223000B0D8D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DCC496015629223000B0D8D /* en */,
+				6DCC49621562922C000B0D8D /* pt-PT */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D7C1826155AC7B800410B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D7C1827155AC7B800410B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D7C1829155AC7B800410B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinlock/Pinlock-Prefix.pch";
+				INFOPLIST_FILE = "Pinlock/Pinlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6D7C182A155AC7B800410B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinlock/Pinlock-Prefix.pch";
+				INFOPLIST_FILE = "Pinlock/Pinlock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D7C1801155AC7B800410B91 /* Build configuration list for PBXProject "Pinlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7C1826155AC7B800410B91 /* Debug */,
+				6D7C1827155AC7B800410B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D7C1828155AC7B800410B91 /* Build configuration list for PBXNativeTarget "Pinlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D7C1829155AC7B800410B91 /* Debug */,
+				6D7C182A155AC7B800410B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D7C17FE155AC7B800410B91 /* Project object */;
+}
